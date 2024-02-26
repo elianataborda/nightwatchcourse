@@ -1,0 +1,15 @@
+{
+    "test_settings" : {
+        "default": {
+          "test_runner": "default"
+        }
+    },
+
+    "test_runner": {
+        "type": "mocha",
+        "options": {
+            "ui": "bdd",
+            "reporter": "spec"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "src_folders" : ["tests"], 
+    "detailed_output": true,
+	"globals_path": "globals/globalModule",
+	"page_objects_path": [ "pages" ],
+
+    "chrome": {
+        "disable_error_log": true,
+        "desiredCapabilities": {
+            "silent": true,
+            "browserName": "chrome",
+            "chromeOptions": {
+                "args": []
+            }
+        },
+        "webdriver": {
+            "start_process": true,
+            "server_path": " ",
+            "log_path":"log_folder",  
+            "cli_args": [
+            ]
+        }
+    },
+
+    "test_settings" : { 
+        "default" : { 
+            "launch_url" : "https://ultimateqa.com",
+            "desiredCapabilities": {
+                "browserName": "chrome"
+            }
+        }
+    }
+}
