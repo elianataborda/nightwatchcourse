@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="tests.mocha.forms.test"
+    errors="0" failures="1" hostname="" id="" package="mocha.forms.test" skipped="0"
+    tests="1" time="14.17" timestamp="">
+  
+    <testcase name="Should fill out form successfully" classname="tests.mocha.forms.test" time="7.084" assertions="2">
+
+      <failure message="Testing if element &lt;Element [name=@lblLeftFormMessage]&gt; contains text &#39;Form filled out successfully&#39; in 5000ms - expected &#34;contains text &#39;Form filled out successfully&#39;&#34; but got: &#34;does not contain &#39;Form filled out successfully&#39;&#34; (5438ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\marga\Automation\nightWatchCourse\tests\mocha.forms.test.js:9:21)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

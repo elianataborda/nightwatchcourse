@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="2"
+            tests="1">
+
+  <testsuite name="tests.debugging.test"
+    errors="3" failures="2" hostname="" id="" package="debugging.test" skipped="0"
+    tests="1" time="43.44" timestamp="">
+  
+    <testcase name="Should find results when searching for &#39;applitools&#39;" classname="tests.debugging.test" time="21.72" assertions="2">  <failure message="Testing if the URL contains &#39;/?s&#39; in 5000ms - expected &#34;contains &#39;/?s&#39;&#34; but got: &#34;https://ultimateqa.com/complicated-page/&#34; (5261ms)">    at Should find results when searching for &#39;applitools&#39; (C:\Users\marga\Automation\nightWatchCourse\tests\debugging.test.js:9:21)</failure>
+
+      <failure message="Failed [equal]: ({
+  error: &#39;An error occurred while running .getText() command on &lt;Element [name=@post]&gt;: Timed out while waiting for element &#34;#post-6917&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.&#39;,
+  message: &#39;An error occurred while running .getText() command on &lt;Element [name=@post]&gt;: Timed out while waiting for element &#34;#post-6917&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.&#39;,
+  stack: &#39;Error\n&#39; +
+    &#34;    at Should find results when searching for &#39;applitools&#39; (C:\\Users\\marga\\Automatio... == &#39;Applitools — JavaScript Testing Framework&#39;) - expected &#34;Applitools — JavaScript Testing Framework&#34; but got: &#34;{
+  error: &#39;An error occurred while running .getText() command on &lt;Element [name=@post]&gt;: Timed out while waiting for element &#34;#post-6917&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.&#39;,
+  message: &#39;An error occurred while running .getText() command on &lt;Element [name=@post]&gt;: Timed out while waiting for element &#34;#post-6917&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.&#39;,
+  stack: &#39;Error\n&#39; +
+    &#34;    at Should find results when searching for &#39;applitools&#39; (C:\\Users\\marga\\Automation\\nightWatchCourse\\tests\\debugging.test.js:11:20)&#34;
+}&#34; (1ms)">  error: &#39;An error occurred while running .getText() command on &lt;Element [name=@post]&gt;: Timed out while waiting for element &#34;#post-6917&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.&#39;,
+  message: &#39;An error occurred while running .getText() command on &lt;Element [name=@post]&gt;: Timed out while waiting for element &#34;#post-6917&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.&#39;,
+  stack: &#39;Error\n&#39; +
+    &#34;    at Should find results when searching for &#39;applitools&#39; (C:\\Users\\marga\\Automatio... == &#39;Applitools — JavaScript Testing Framework&#39;
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\marga\Automation\nightWatchCourse\tests\debugging.test.js:12:27)</failure>
+<system-out>[[ATTACHMENT|C:\Users\marga\Automation\nightWatchCourse\screenshots\tests\debugging.test\Should-find-results-when-searching-for-applitools_FAILED_Feb-26-2024-171523-GMT-0500.png]]</system-out>
+    
+    <error message="Failed [equal]: ({
+  error: &#39;An error occurred while running .getText() command on &lt;Element [name=@post]&gt;: Timed out while waiting for element &#34;#post-6917&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.&#39;,
+  message: &#39;An error occurred while running .getText() command on &lt;Element [name=@post]&gt;: Timed out while waiting for element &#34;#post-6917&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.&#39;,
+  stack: &#39;Error\n&#39; +
+    &#34;    at Should find results when searching for &#39;applitools&#39; (C:\\Users\\marga\\Automatio... == &#39;Applitools — JavaScript Testing Framework&#39;) - expected [32m&#34;Applitools — JavaScript Testing Framework&#34;[39m but got: [31m&#34;{[39m
+[31m  error: &#39;An error occurred while running .getText() command on &lt;Element [name=@post]&gt;: Timed out while waiting for element &#34;#post-6917&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.&#39;,[39m
+[31m  message: &#39;An error occurred while running .getText() command on &lt;Element [name=@post]&gt;: Timed out while waiting for element &#34;#post-6917&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.&#39;,[39m
+[31m  stack: &#39;Error\n&#39; +[39m
+[31m    &#34;    at Should find results when searching for &#39;applitools&#39; (C:\\Users\\marga\\Automation\\nightWatchCourse\\tests\\debugging.test.js:11:20)&#34;[39m
+[31m}&#34;[39m [90m(1ms)[39m" type="error"><![CDATA[
+      error: &#39;An error occurred while running .getText() command on &lt;Element [name=@post]&gt;: Timed out while waiting for element &#34;#post-6917&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.&#39;,
+  message: &#39;An error occurred while running .getText() command on &lt;Element [name=@post]&gt;: Timed out while waiting for element &#34;#post-6917&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.&#39;,
+  stack: &#39;Error\n&#39; +
+    &#34;    at Should find results when searching for &#39;applitools&#39; (C:\\Users\\marga\\Automatio... == &#39;Applitools — JavaScript Testing Framework&#39;
+    at NightwatchAPI.&lt;anonymous&gt; (C:\Users\marga\Automation\nightWatchCourse\tests\debugging.test.js:12:27)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\marga\Automation\nightWatchCourse\tests\debugging.test.js:8
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     6 |         ComplicatedPage
+     7 |             .navigate()
+     8 |             .search(&#39;applitools&#39;) 
+     9 |             .verify.urlContains(&#39;/?s&#39;)
+     10 | 
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\marga\Automation\nightWatchCourse\tests\debugging.test.js:8
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     6 |         ComplicatedPage
+     7 |             .navigate()
+     8 |             .search(&#39;applitools&#39;) 
+     9 |             .verify.urlContains(&#39;/?s&#39;)
+     10 | 
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An element could not be located on the page using the given search parameters.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\marga\Automation\nightWatchCourse\tests\debugging.test.js:11
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     9 |             .verify.urlContains(&#39;/?s&#39;)
+     10 | 
+     11 |         SearchPage.getText(&#39;@post&#39;, (result) =&gt; { 
+     12 |             client.assert.equal(result.value, &#39;Applitools — JavaScript Testing Framework&#39;);
+     13 |         })
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

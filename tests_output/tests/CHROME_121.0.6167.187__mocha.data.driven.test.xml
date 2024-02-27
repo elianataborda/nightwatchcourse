@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="tests.mocha.data.driven.test"
+    errors="1" failures="0" hostname="" id="" package="mocha.data.driven.test" skipped="2"
+    tests="1" time="0.1500" timestamp="">
+  
+    <testcase name="Should verify that the name error message is shown" classname="tests.mocha.data.driven.test" time="0.07400" assertions="0">
+    <error message="screenshotFileName is not defined" type="error"><![CDATA[
+    ReferenceError: screenshotFileName is not defined
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\marga\Automation\nightWatchCourse\tests\mocha.data.driven.test.js:11:37)
+    at Context.call (C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\testsuite\context.js:515:35)
+    at TestCase.run (C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\testsuite\index.js:839:80)
+    at Runnable.run (C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.executeRunnable (C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\testsuite\index.js:1000:49)
+    at TestSuite.handleRunnable (C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\testsuite\index.js:1015:33)
+    at C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\testsuite\index.js:839:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async DefaultRunner.runTestSuite (C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\runner\test-runners\default.js:83:7)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       ✖ ReferenceError
+   screenshotFileName is not defined
+
+    Error location:
+    C:\Users\marga\Automation\nightWatchCourse\tests\mocha.data.driven.test.js:11
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     9 |                     .submitForm(&#39;@form&#39;)
+     10 |                     //screenshoot
+     11 |                     .saveScreenshot(screenshotFileName) 
+     12 |                     .verify.containsText(&#39;@lblLeftFormMessage&#39;, expected)
+     13 |             });
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    Stack Trace :
+    at DescribeInstance.&lt;anonymous&gt; (C:\Users\marga\Automation\nightWatchCourse\tests\mocha.data.driven.test.js:11:37)
+    at Context.call (C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\testsuite\context.js:515:35)
+    at TestCase.run (C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\testsuite\index.js:839:80)
+    at Runnable.run (C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.executeRunnable (C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\testsuite\index.js:1000:49)
+    at TestSuite.handleRunnable (C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\testsuite\index.js:1015:33)
+    at C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\testsuite\index.js:839:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async DefaultRunner.runTestSuite (C:\Users\marga\Automation\nightWatchCourse\node_modules\nightwatch\lib\runner\test-runners\default.js:83:7)
+
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="Should verify that the message error is shown" classname="tests.mocha.data.driven.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should verify that the message and name errors are shown" classname="tests.mocha.data.driven.test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

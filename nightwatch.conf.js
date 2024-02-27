@@ -45,9 +45,10 @@ module.exports = {
       launch_url: 'https://ultimateqa.com',
 
       screenshots: {
-        enabled: false,
-        path: 'screens',
-        on_failure: true
+        enabled: true,
+        path: 'screenshots',
+        on_failure: true,
+        on_error: false
       },
 
       desiredCapabilities: {
